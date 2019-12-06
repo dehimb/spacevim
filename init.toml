@@ -48,23 +48,5 @@
 [[layers]]
     name = "ctrlp"
 
-[[custom_plugins]]
-    name = "roxma/vim-hug-neovim-rpc"
-    merged = false
-
-[[custom_plugins]]
-    name = "roxma/nvim-yarp"
-    merged = false
-
-[[custom_plugins]]
-  name = "scrooloose/nerdcommenter"
-
 [[layers]]
   name = "lang#extra"
-
-# TODO 
-# autocomlete -> mulisnips
-# search results number
-# iedit nornal/insert
-# select and rename trancient mode
-# SPC, s, z, g
