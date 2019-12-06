@@ -25,6 +25,7 @@
     enable_statusline_mode = true
     # left sections of statusline
     bootstrap_before = "myspacevim#before"
+    autocomplete_method = "coc"
 
 [[layers]]
     name = 'autocomplete'
