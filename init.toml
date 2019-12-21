@@ -51,3 +51,6 @@
 
 [[layers]]
   name = "lang#extra"
+
+[[layers]]
+  name = "debug"
