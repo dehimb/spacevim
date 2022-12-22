@@ -1,7 +1,8 @@
 function! myspacevim#before() abort
-  set conceallevel=0
-  set signcolumn=yes
+  set encoding=utf-8
   set ignorecase
+  set splitright
+  set list listchars=trail:·,space:·,tab:→\
   let g:neomake_open_list = 0
   call SpaceVim#custom#SPC('nmap', ['f', 'v', 'e'], '::e ~/.SpaceVim.d/autoload/myspacevim.vim', 'edit custom keybindings', 1)
   call SpaceVim#custom#SPC('nmap', ['t', 'b'], ':Tagbar', 'Toggle tagbar', 1)
