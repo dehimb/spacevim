@@ -12,7 +12,6 @@
     # if you want to use more colorscheme, please load the colorscheme
     # layer
     colorscheme = "onedark"
-    colorscheme_bg = "dark"
     # Disable guicolors in basic mode, many terminal do not support 24bit
     # true colors
     enable_guicolors = true
@@ -25,7 +24,7 @@
     enable_statusline_mode = true
     # left sections of statusline
     bootstrap_before = "myspacevim#before"
-    autocomplete_method = "coc"
+    # autocomplete_method = "coc"
 
 [[layers]]
     name = 'autocomplete'
@@ -54,3 +53,7 @@
 
 [[layers]]
   name = "debug"
+
+[[custom_plugins]]
+  repo = "hashivim/vim-terraform"
+  meged = false
